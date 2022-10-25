@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    background-color: rgb(111, 0, 255);
+}
+.gallery img{
+    padding: 1%;
+    width: 21%;
+}
+.gallery img:hover{
+    filter: grayscale(100%);
+}
+@media screen and (max-width: 480px) {
+    .gallery img{
+        width: 95%;
+    } 
+    
+}
+@media screen and (min-width: 481px) and (max-width: 720px) {
+    .gallery img{
+        width: 40%;
+    } 
+    
+}
